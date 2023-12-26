@@ -15,8 +15,9 @@
 		FC0975E82B345651007AF825 /* TimelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975E72B345651007AF825 /* TimelyUITests.swift */; };
 		FC0975EA2B345651007AF825 /* TimelyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975E92B345651007AF825 /* TimelyUITestsLaunchTests.swift */; };
 		FC0975F82B34A1B4007AF825 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975F72B34A1B4007AF825 /* LoginView.swift */; };
-		FC0975FA2B34A1D1007AF825 /* LoginBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975F92B34A1D1007AF825 /* LoginBackgroundView.swift */; };
-		FC0975FC2B34A2B1007AF825 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975FB2B34A2B1007AF825 /* LandingView.swift */; };
+		FC0975FC2B34A2B1007AF825 /* GetstartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975FB2B34A2B1007AF825 /* GetstartedView.swift */; };
+		FC37D6D22B3B03D00097122D /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37D6D12B3B03D00097122D /* LandingView.swift */; };
+		FC37D6D42B3B2F370097122D /* LoginCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37D6D32B3B2F370097122D /* LoginCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +49,9 @@
 		FC0975E72B345651007AF825 /* TimelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelyUITests.swift; sourceTree = "<group>"; };
 		FC0975E92B345651007AF825 /* TimelyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FC0975F72B34A1B4007AF825 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		FC0975F92B34A1D1007AF825 /* LoginBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBackgroundView.swift; sourceTree = "<group>"; };
-		FC0975FB2B34A2B1007AF825 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		FC0975FB2B34A2B1007AF825 /* GetstartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetstartedView.swift; sourceTree = "<group>"; };
+		FC37D6D12B3B03D00097122D /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		FC37D6D32B3B2F370097122D /* LoginCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 		FC0975CB2B34564F007AF825 /* Timely */ = {
 			isa = PBXGroup;
 			children = (
-				FC0975F62B345E6A007AF825 /* Models */,
+				FC37D6D52B3B2F3D0097122D /* Components */,
+				FC0975F62B345E6A007AF825 /* Screens */,
 				FC0975CC2B34564F007AF825 /* TimelyApp.swift */,
 				FC0975CE2B34564F007AF825 /* ContentView.swift */,
 				FC0975D02B345651007AF825 /* Assets.xcassets */,
@@ -134,14 +137,22 @@
 			path = TimelyUITests;
 			sourceTree = "<group>";
 		};
-		FC0975F62B345E6A007AF825 /* Models */ = {
+		FC0975F62B345E6A007AF825 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				FC0975F72B34A1B4007AF825 /* LoginView.swift */,
-				FC0975F92B34A1D1007AF825 /* LoginBackgroundView.swift */,
-				FC0975FB2B34A2B1007AF825 /* LandingView.swift */,
+				FC37D6D12B3B03D00097122D /* LandingView.swift */,
+				FC0975FB2B34A2B1007AF825 /* GetstartedView.swift */,
 			);
-			path = Models;
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FC37D6D52B3B2F3D0097122D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FC37D6D32B3B2F370097122D /* LoginCard.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,8 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC0975FA2B34A1D1007AF825 /* LoginBackgroundView.swift in Sources */,
-				FC0975FC2B34A2B1007AF825 /* LandingView.swift in Sources */,
+				FC37D6D22B3B03D00097122D /* LandingView.swift in Sources */,
+				FC37D6D42B3B2F370097122D /* LoginCard.swift in Sources */,
+				FC0975FC2B34A2B1007AF825 /* GetstartedView.swift in Sources */,
 				FC0975F82B34A1B4007AF825 /* LoginView.swift in Sources */,
 				FC0975CF2B34564F007AF825 /* ContentView.swift in Sources */,
 				FC0975CD2B34564F007AF825 /* TimelyApp.swift in Sources */,

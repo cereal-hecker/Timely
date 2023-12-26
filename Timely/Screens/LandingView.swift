@@ -9,7 +9,12 @@ import SwiftUI
 
 struct LandingView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            ProgressView(value: 623, total: 1000)
+                .padding(4)
+                .border(.pink, width: 3)
+                .cornerRadius(4)
+        }
     }
 }
 
