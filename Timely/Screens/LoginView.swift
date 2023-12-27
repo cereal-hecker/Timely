@@ -12,33 +12,32 @@ struct LoginView: View {
     @State private var username: String = ""
     @State private var password: String = ""
     var body: some View {
-        VStack{
-            Text("timely").font(.system(size: 80).weight(.black))
-            Image("model")
-            Spacer()
-            ZStack{
-                VStack{
-                    Text("Log in").font(.system(size: 40).weight(.black))
-                    TextField(
-                        "username",
-                        text: $username
-                    )
-                    .padding(.leading)
-                    TextField(
-                        "password",
-                        text: $password
-                    )
-                    .padding(.leading)
-                    Text("or log in using").font(.system(size: 24).weight(.bold))
-                    Text("New user? Sign up here!")
+        ZStack{
+            VStack{
+                ZStack{
+                    Image("logo")
+                        .resizable()
+                        .frame(width: 114, height: 100)
+                    Text("timely")
+                        .font(.system(size: 80).weight(.black))
+                        .offset(y: 40)
                 }
-                .background(Color.background)
-                .padding()
-                
+                Spacer()
+                ZStack{
+                    Rectangle()
+                        .frame(height:440)
+                        .cornerRadius(45)
+                        .foregroundColor(.accent)
+                    LoginCard()
+                }
             }
-            .padding()
-            .background(Color.accent)
+            Image("model")
+                .resizable()
+                .frame(width: 240, height: 240)
+                .offset(y: -140)
         }
+        .edgesIgnoringSafeArea(.bottom)
+        .background(Color.background)
     }
 }
 

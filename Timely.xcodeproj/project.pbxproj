@@ -15,9 +15,11 @@
 		FC0975E82B345651007AF825 /* TimelyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975E72B345651007AF825 /* TimelyUITests.swift */; };
 		FC0975EA2B345651007AF825 /* TimelyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975E92B345651007AF825 /* TimelyUITestsLaunchTests.swift */; };
 		FC0975F82B34A1B4007AF825 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975F72B34A1B4007AF825 /* LoginView.swift */; };
-		FC0975FC2B34A2B1007AF825 /* GetstartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975FB2B34A2B1007AF825 /* GetstartedView.swift */; };
+		FC0975FC2B34A2B1007AF825 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975FB2B34A2B1007AF825 /* GetStartedView.swift */; };
 		FC37D6D22B3B03D00097122D /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37D6D12B3B03D00097122D /* LandingView.swift */; };
-		FC37D6D42B3B2F370097122D /* LoginCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37D6D32B3B2F370097122D /* LoginCard.swift */; };
+		FC37D6D42B3B2F370097122D /* GetStartedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37D6D32B3B2F370097122D /* GetStartedCard.swift */; };
+		FC91BC672B3C21EB007C7A3F /* LoginCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91BC662B3C21EB007C7A3F /* LoginCard.swift */; };
+		FC91BC6B2B3C3E96007C7A3F /* SplineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91BC6A2B3C3E96007C7A3F /* SplineCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +51,11 @@
 		FC0975E72B345651007AF825 /* TimelyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelyUITests.swift; sourceTree = "<group>"; };
 		FC0975E92B345651007AF825 /* TimelyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FC0975F72B34A1B4007AF825 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		FC0975FB2B34A2B1007AF825 /* GetstartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetstartedView.swift; sourceTree = "<group>"; };
+		FC0975FB2B34A2B1007AF825 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
 		FC37D6D12B3B03D00097122D /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
-		FC37D6D32B3B2F370097122D /* LoginCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCard.swift; sourceTree = "<group>"; };
+		FC37D6D32B3B2F370097122D /* GetStartedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedCard.swift; sourceTree = "<group>"; };
+		FC91BC662B3C21EB007C7A3F /* LoginCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCard.swift; sourceTree = "<group>"; };
+		FC91BC6A2B3C3E96007C7A3F /* SplineCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplineCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +145,8 @@
 			isa = PBXGroup;
 			children = (
 				FC0975F72B34A1B4007AF825 /* LoginView.swift */,
+				FC0975FB2B34A2B1007AF825 /* GetStartedView.swift */,
 				FC37D6D12B3B03D00097122D /* LandingView.swift */,
-				FC0975FB2B34A2B1007AF825 /* GetstartedView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -150,7 +154,9 @@
 		FC37D6D52B3B2F3D0097122D /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				FC37D6D32B3B2F370097122D /* LoginCard.swift */,
+				FC37D6D32B3B2F370097122D /* GetStartedCard.swift */,
+				FC91BC662B3C21EB007C7A3F /* LoginCard.swift */,
+				FC91BC6A2B3C3E96007C7A3F /* SplineCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -285,9 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC91BC6B2B3C3E96007C7A3F /* SplineCard.swift in Sources */,
 				FC37D6D22B3B03D00097122D /* LandingView.swift in Sources */,
-				FC37D6D42B3B2F370097122D /* LoginCard.swift in Sources */,
-				FC0975FC2B34A2B1007AF825 /* GetstartedView.swift in Sources */,
+				FC37D6D42B3B2F370097122D /* GetStartedCard.swift in Sources */,
+				FC91BC672B3C21EB007C7A3F /* LoginCard.swift in Sources */,
+				FC0975FC2B34A2B1007AF825 /* GetStartedView.swift in Sources */,
 				FC0975F82B34A1B4007AF825 /* LoginView.swift in Sources */,
 				FC0975CF2B34564F007AF825 /* ContentView.swift in Sources */,
 				FC0975CD2B34564F007AF825 /* TimelyApp.swift in Sources */,
