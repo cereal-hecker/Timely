@@ -10,11 +10,13 @@ import SwiftUI
 struct LandingView: View {
     var body: some View {
         VStack{
-            ProgressView(value: 623, total: 1000)
-                .padding(4)
-                .border(.pink, width: 3)
-                .cornerRadius(4)
+            HealthCard(currentHealth: 541, maxHealth: 1000, level: 13)
+            ZStack{
+                Image("land-bg")
+                AddMission()
+            }
         }
+        .edgesIgnoringSafeArea(.bottom)
     }
 }
 
