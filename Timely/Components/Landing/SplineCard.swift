@@ -12,7 +12,9 @@ let url = URL(string: "https://build.spline.design/aEj3lKxJZBeYrEPKhblR/scene.sp
 
 struct SplineCard: View {
     var body: some View {
-        try? SplineView(sceneFileURL:url).ignoresSafeArea(.all)
+        try? SplineView(sceneFileURL:url)
+            .frame(minHeight: 650)
+//            .contentMargins(.bottom, 300)
     }
 }
 

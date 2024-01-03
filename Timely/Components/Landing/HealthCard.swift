@@ -26,13 +26,13 @@ struct HealthCard: View {
                     .cornerRadius(100)
 
                 HStack {
-                    Text("\(Int(currentHealth))")
+                    Text("\(Int(currentHealth))⚡")
                         .foregroundColor(.white)
                         .padding(.leading, 12)
                         .padding(.trailing, 4)
 
                     Spacer()
-
+                    
                     Text("Lv. \(level)")
                         .padding(.trailing, 12)
                         .padding(.leading, 4)

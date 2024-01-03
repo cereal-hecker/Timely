@@ -1,13 +1,13 @@
 //
-//  LoginView.swift
+//  SignupView.swift
 //  Timely
 //
-//  Created by Riya Batla on 21/12/23.
+//  Created by Riya Batla on 31/12/23.
 //
 
 import SwiftUI
 
-struct LoginView: View {
+struct SignupView: View {
     var body: some View {
         ZStack{
             VStack{
@@ -25,7 +25,7 @@ struct LoginView: View {
                         .frame(height:440)
                         .cornerRadius(45)
                         .foregroundColor(.accent)
-                    LoginCard()
+                    SignupCard()
                 }
             }
             Image("model")
@@ -39,5 +39,5 @@ struct LoginView: View {
 }
 
 #Preview {
-    LoginView()
+    SignupView()
 }

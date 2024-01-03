@@ -16,15 +16,31 @@
 		FC0975EA2B345651007AF825 /* TimelyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975E92B345651007AF825 /* TimelyUITestsLaunchTests.swift */; };
 		FC0975F82B34A1B4007AF825 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975F72B34A1B4007AF825 /* LoginView.swift */; };
 		FC0975FC2B34A2B1007AF825 /* GetStartedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0975FB2B34A2B1007AF825 /* GetStartedView.swift */; };
+		FC0EA61E2B4167BE00A0DB5F /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0EA61D2B4167BE00A0DB5F /* SignupView.swift */; };
+		FC0EA6202B4170BD00A0DB5F /* SignupCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0EA61F2B4170BD00A0DB5F /* SignupCard.swift */; };
 		FC37D6D22B3B03D00097122D /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37D6D12B3B03D00097122D /* LandingView.swift */; };
 		FC37D6D42B3B2F370097122D /* GetStartedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37D6D32B3B2F370097122D /* GetStartedCard.swift */; };
+		FC3D356F2B41512A000CC7F5 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3D356E2B41512A000CC7F5 /* LeaderboardView.swift */; };
 		FC91BC672B3C21EB007C7A3F /* LoginCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91BC662B3C21EB007C7A3F /* LoginCard.swift */; };
 		FC91BC6B2B3C3E96007C7A3F /* SplineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91BC6A2B3C3E96007C7A3F /* SplineCard.swift */; };
+		FC9380CB2B414A71008AAF95 /* RankCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9380CA2B414A71008AAF95 /* RankCard.swift */; };
 		FCB6B3F32B3D7F0200D5DC55 /* SplineRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = FCB6B3F22B3D7F0200D5DC55 /* SplineRuntime */; };
 		FCB6B3F52B3EB01200D5DC55 /* HealthCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6B3F42B3EB01200D5DC55 /* HealthCard.swift */; };
 		FCB6B3F72B3EB59800D5DC55 /* NextMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6B3F62B3EB59800D5DC55 /* NextMission.swift */; };
 		FCB6B3F92B3EB5A900D5DC55 /* AddMission.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6B3F82B3EB5A900D5DC55 /* AddMission.swift */; };
 		FCB6B3FB2B3ECB7A00D5DC55 /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB6B3FA2B3ECB7A00D5DC55 /* NavBar.swift */; };
+		FCDF92BF2B458DE6001CE9AA /* CalenderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDF92BE2B458DE6001CE9AA /* CalenderCard.swift */; };
+		FCDF92C12B459FE5001CE9AA /* ScheduleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDF92C02B459FE5001CE9AA /* ScheduleCard.swift */; };
+		FCDF92C52B45A12F001CE9AA /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDF92C42B45A12F001CE9AA /* CalendarView.swift */; };
+		FCDF92C72B45ACFC001CE9AA /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDF92C62B45ACFC001CE9AA /* ShopView.swift */; };
+		FCDF92C92B45AE9E001CE9AA /* CharacterCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDF92C82B45AE9E001CE9AA /* CharacterCard.swift */; };
+		FCF24C0B2B45E4FE00CF4BCC /* DayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF24C0A2B45E4FE00CF4BCC /* DayCard.swift */; };
+		FCF2EF0D2B45FF3C00A0DDA4 /* CharactersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF2EF0C2B45FF3C00A0DDA4 /* CharactersView.swift */; };
+		FCF2EF102B46015500A0DDA4 /* LocationPicker in Frameworks */ = {isa = PBXBuildFile; productRef = FCF2EF0F2B46015500A0DDA4 /* LocationPicker */; };
+		FCF2EF122B46017900A0DDA4 /* TestUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF2EF112B46017900A0DDA4 /* TestUi.swift */; };
+		FCF2EF152B46136500A0DDA4 /* ChosenCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF2EF142B46136500A0DDA4 /* ChosenCharacter.swift */; };
+		FCF2EF172B46195300A0DDA4 /* ChoosePet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF2EF162B46195300A0DDA4 /* ChoosePet.swift */; };
+		FCF2EF192B4619C700A0DDA4 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF2EF182B4619C700A0DDA4 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,14 +73,29 @@
 		FC0975E92B345651007AF825 /* TimelyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FC0975F72B34A1B4007AF825 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FC0975FB2B34A2B1007AF825 /* GetStartedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedView.swift; sourceTree = "<group>"; };
+		FC0EA61D2B4167BE00A0DB5F /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		FC0EA61F2B4170BD00A0DB5F /* SignupCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupCard.swift; sourceTree = "<group>"; };
 		FC37D6D12B3B03D00097122D /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		FC37D6D32B3B2F370097122D /* GetStartedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedCard.swift; sourceTree = "<group>"; };
+		FC3D356E2B41512A000CC7F5 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 		FC91BC662B3C21EB007C7A3F /* LoginCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCard.swift; sourceTree = "<group>"; };
 		FC91BC6A2B3C3E96007C7A3F /* SplineCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplineCard.swift; sourceTree = "<group>"; };
+		FC9380CA2B414A71008AAF95 /* RankCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankCard.swift; sourceTree = "<group>"; };
 		FCB6B3F42B3EB01200D5DC55 /* HealthCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCard.swift; sourceTree = "<group>"; };
 		FCB6B3F62B3EB59800D5DC55 /* NextMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextMission.swift; sourceTree = "<group>"; };
 		FCB6B3F82B3EB5A900D5DC55 /* AddMission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMission.swift; sourceTree = "<group>"; };
 		FCB6B3FA2B3ECB7A00D5DC55 /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		FCDF92BE2B458DE6001CE9AA /* CalenderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderCard.swift; sourceTree = "<group>"; };
+		FCDF92C02B459FE5001CE9AA /* ScheduleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleCard.swift; sourceTree = "<group>"; };
+		FCDF92C42B45A12F001CE9AA /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		FCDF92C62B45ACFC001CE9AA /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		FCDF92C82B45AE9E001CE9AA /* CharacterCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCard.swift; sourceTree = "<group>"; };
+		FCF24C0A2B45E4FE00CF4BCC /* DayCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCard.swift; sourceTree = "<group>"; };
+		FCF2EF0C2B45FF3C00A0DDA4 /* CharactersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersView.swift; sourceTree = "<group>"; };
+		FCF2EF112B46017900A0DDA4 /* TestUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUi.swift; sourceTree = "<group>"; };
+		FCF2EF142B46136500A0DDA4 /* ChosenCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenCharacter.swift; sourceTree = "<group>"; };
+		FCF2EF162B46195300A0DDA4 /* ChoosePet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosePet.swift; sourceTree = "<group>"; };
+		FCF2EF182B4619C700A0DDA4 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCB6B3F32B3D7F0200D5DC55 /* SplineRuntime in Frameworks */,
+				FCF2EF102B46015500A0DDA4 /* LocationPicker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +189,12 @@
 				FC0975F72B34A1B4007AF825 /* LoginView.swift */,
 				FC0975FB2B34A2B1007AF825 /* GetStartedView.swift */,
 				FC37D6D12B3B03D00097122D /* LandingView.swift */,
+				FC3D356E2B41512A000CC7F5 /* LeaderboardView.swift */,
+				FCDF92C42B45A12F001CE9AA /* CalendarView.swift */,
+				FCDF92C62B45ACFC001CE9AA /* ShopView.swift */,
+				FC0EA61D2B4167BE00A0DB5F /* SignupView.swift */,
+				FCF2EF0C2B45FF3C00A0DDA4 /* CharactersView.swift */,
+				FCF2EF112B46017900A0DDA4 /* TestUi.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -164,15 +202,80 @@
 		FC37D6D52B3B2F3D0097122D /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				FC37D6D32B3B2F370097122D /* GetStartedCard.swift */,
-				FC91BC662B3C21EB007C7A3F /* LoginCard.swift */,
-				FC91BC6A2B3C3E96007C7A3F /* SplineCard.swift */,
-				FCB6B3F42B3EB01200D5DC55 /* HealthCard.swift */,
-				FCB6B3F62B3EB59800D5DC55 /* NextMission.swift */,
-				FCB6B3F82B3EB5A900D5DC55 /* AddMission.swift */,
+				FCF2EF0A2B45FE2C00A0DDA4 /* Characters */,
+				FCF2EF062B45FD6600A0DDA4 /* Login & Signup */,
+				FCF2EF052B45FD3100A0DDA4 /* Get Started */,
+				FCF24C092B45E4BE00CF4BCC /* Shop */,
+				FCF2EF072B45FD9100A0DDA4 /* Landing */,
 				FCB6B3FA2B3ECB7A00D5DC55 /* NavBar.swift */,
+				FCF2EF082B45FDBB00A0DDA4 /* Leaderboard */,
+				FCF2EF092B45FDDF00A0DDA4 /* Calendar */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		FCF24C092B45E4BE00CF4BCC /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				FCDF92C82B45AE9E001CE9AA /* CharacterCard.swift */,
+				FCF24C0A2B45E4FE00CF4BCC /* DayCard.swift */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		FCF2EF052B45FD3100A0DDA4 /* Get Started */ = {
+			isa = PBXGroup;
+			children = (
+				FC37D6D32B3B2F370097122D /* GetStartedCard.swift */,
+			);
+			path = "Get Started";
+			sourceTree = "<group>";
+		};
+		FCF2EF062B45FD6600A0DDA4 /* Login & Signup */ = {
+			isa = PBXGroup;
+			children = (
+				FC0EA61F2B4170BD00A0DB5F /* SignupCard.swift */,
+				FC91BC662B3C21EB007C7A3F /* LoginCard.swift */,
+			);
+			path = "Login & Signup";
+			sourceTree = "<group>";
+		};
+		FCF2EF072B45FD9100A0DDA4 /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				FC91BC6A2B3C3E96007C7A3F /* SplineCard.swift */,
+				FCB6B3F62B3EB59800D5DC55 /* NextMission.swift */,
+				FCB6B3F42B3EB01200D5DC55 /* HealthCard.swift */,
+				FCB6B3F82B3EB5A900D5DC55 /* AddMission.swift */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		FCF2EF082B45FDBB00A0DDA4 /* Leaderboard */ = {
+			isa = PBXGroup;
+			children = (
+				FC9380CA2B414A71008AAF95 /* RankCard.swift */,
+			);
+			path = Leaderboard;
+			sourceTree = "<group>";
+		};
+		FCF2EF092B45FDDF00A0DDA4 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				FCDF92C02B459FE5001CE9AA /* ScheduleCard.swift */,
+				FCDF92BE2B458DE6001CE9AA /* CalenderCard.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		FCF2EF0A2B45FE2C00A0DDA4 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				FCF2EF142B46136500A0DDA4 /* ChosenCharacter.swift */,
+				FCF2EF162B46195300A0DDA4 /* ChoosePet.swift */,
+				FCF2EF182B4619C700A0DDA4 /* Character.swift */,
+			);
+			path = Characters;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +296,7 @@
 			name = Timely;
 			packageProductDependencies = (
 				FCB6B3F22B3D7F0200D5DC55 /* SplineRuntime */,
+				FCF2EF0F2B46015500A0DDA4 /* LocationPicker */,
 			);
 			productName = Timely;
 			productReference = FC0975C92B34564F007AF825 /* Timely.app */;
@@ -268,6 +372,7 @@
 			mainGroup = FC0975C02B34564F007AF825;
 			packageReferences = (
 				FCB6B3F12B3D7F0200D5DC55 /* XCRemoteSwiftPackageReference "spline-ios" */,
+				FCF2EF0E2B46015500A0DDA4 /* XCRemoteSwiftPackageReference "LocationPickerForSwiftUI" */,
 			);
 			productRefGroup = FC0975CA2B34564F007AF825 /* Products */;
 			projectDirPath = "";
@@ -311,7 +416,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF2EF192B4619C700A0DDA4 /* Character.swift in Sources */,
+				FCDF92C92B45AE9E001CE9AA /* CharacterCard.swift in Sources */,
 				FC91BC6B2B3C3E96007C7A3F /* SplineCard.swift in Sources */,
+				FCDF92C12B459FE5001CE9AA /* ScheduleCard.swift in Sources */,
 				FC37D6D22B3B03D00097122D /* LandingView.swift in Sources */,
 				FC37D6D42B3B2F370097122D /* GetStartedCard.swift in Sources */,
 				FC91BC672B3C21EB007C7A3F /* LoginCard.swift in Sources */,
@@ -319,10 +427,22 @@
 				FCB6B3FB2B3ECB7A00D5DC55 /* NavBar.swift in Sources */,
 				FC0975F82B34A1B4007AF825 /* LoginView.swift in Sources */,
 				FC0975CF2B34564F007AF825 /* ContentView.swift in Sources */,
+				FCF2EF172B46195300A0DDA4 /* ChoosePet.swift in Sources */,
 				FCB6B3F72B3EB59800D5DC55 /* NextMission.swift in Sources */,
+				FC0EA61E2B4167BE00A0DB5F /* SignupView.swift in Sources */,
+				FCF24C0B2B45E4FE00CF4BCC /* DayCard.swift in Sources */,
+				FCF2EF122B46017900A0DDA4 /* TestUi.swift in Sources */,
 				FCB6B3F92B3EB5A900D5DC55 /* AddMission.swift in Sources */,
+				FCDF92C52B45A12F001CE9AA /* CalendarView.swift in Sources */,
+				FC0EA6202B4170BD00A0DB5F /* SignupCard.swift in Sources */,
+				FC3D356F2B41512A000CC7F5 /* LeaderboardView.swift in Sources */,
 				FC0975CD2B34564F007AF825 /* TimelyApp.swift in Sources */,
 				FCB6B3F52B3EB01200D5DC55 /* HealthCard.swift in Sources */,
+				FCF2EF152B46136500A0DDA4 /* ChosenCharacter.swift in Sources */,
+				FCF2EF0D2B45FF3C00A0DDA4 /* CharactersView.swift in Sources */,
+				FC9380CB2B414A71008AAF95 /* RankCard.swift in Sources */,
+				FCDF92C72B45ACFC001CE9AA /* ShopView.swift in Sources */,
+				FCDF92BF2B458DE6001CE9AA /* CalenderCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -656,6 +776,14 @@
 				kind = branch;
 			};
 		};
+		FCF2EF0E2B46015500A0DDA4 /* XCRemoteSwiftPackageReference "LocationPickerForSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alessiorubicini/LocationPickerForSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -663,6 +791,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FCB6B3F12B3D7F0200D5DC55 /* XCRemoteSwiftPackageReference "spline-ios" */;
 			productName = SplineRuntime;
+		};
+		FCF2EF0F2B46015500A0DDA4 /* LocationPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCF2EF0E2B46015500A0DDA4 /* XCRemoteSwiftPackageReference "LocationPickerForSwiftUI" */;
+			productName = LocationPicker;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
