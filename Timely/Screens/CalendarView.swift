@@ -9,6 +9,8 @@ import SwiftUI
 
 struct CalendarView: View {
     var body: some View {
+        ZStack(alignment: .bottom){
+            Image("twomt")
             VStack(alignment: .leading){
                 Text("My Schedule")
                     .font(.system(size: 40).weight(.black))
@@ -18,7 +20,11 @@ struct CalendarView: View {
                 ScheduleCard()
                 Spacer()
                 NavBar()
+                    .padding(.bottom)
             }
+            .padding()
+        }
+        .background(Color.background)
     }
 }
 

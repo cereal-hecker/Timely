@@ -23,7 +23,7 @@ struct LoginView: View {
                     Spacer()
                     ZStack{
                         Rectangle()
-                            .frame(height:470)
+                            .frame(height:480)
                             .cornerRadius(45)
                             .foregroundColor(.accent)
                         LoginCard()

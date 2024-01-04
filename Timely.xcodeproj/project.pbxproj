@@ -21,6 +21,8 @@
 		FC37D6D22B3B03D00097122D /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37D6D12B3B03D00097122D /* LandingView.swift */; };
 		FC37D6D42B3B2F370097122D /* GetStartedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC37D6D32B3B2F370097122D /* GetStartedCard.swift */; };
 		FC3D356F2B41512A000CC7F5 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3D356E2B41512A000CC7F5 /* LeaderboardView.swift */; };
+		FC6615392B4662BD00DEC8C1 /* EventCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6615382B4662BD00DEC8C1 /* EventCard.swift */; };
+		FC66153B2B4677AC00DEC8C1 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC66153A2B4677AC00DEC8C1 /* History.swift */; };
 		FC91BC672B3C21EB007C7A3F /* LoginCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91BC662B3C21EB007C7A3F /* LoginCard.swift */; };
 		FC91BC6B2B3C3E96007C7A3F /* SplineCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC91BC6A2B3C3E96007C7A3F /* SplineCard.swift */; };
 		FC9380CB2B414A71008AAF95 /* RankCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9380CA2B414A71008AAF95 /* RankCard.swift */; };
@@ -78,6 +80,8 @@
 		FC37D6D12B3B03D00097122D /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		FC37D6D32B3B2F370097122D /* GetStartedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedCard.swift; sourceTree = "<group>"; };
 		FC3D356E2B41512A000CC7F5 /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		FC6615382B4662BD00DEC8C1 /* EventCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCard.swift; sourceTree = "<group>"; };
+		FC66153A2B4677AC00DEC8C1 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 		FC91BC662B3C21EB007C7A3F /* LoginCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCard.swift; sourceTree = "<group>"; };
 		FC91BC6A2B3C3E96007C7A3F /* SplineCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplineCard.swift; sourceTree = "<group>"; };
 		FC9380CA2B414A71008AAF95 /* RankCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankCard.swift; sourceTree = "<group>"; };
@@ -195,6 +199,7 @@
 				FC0EA61D2B4167BE00A0DB5F /* SignupView.swift */,
 				FCF2EF0C2B45FF3C00A0DDA4 /* CharactersView.swift */,
 				FCF2EF112B46017900A0DDA4 /* TestUi.swift */,
+				FC66153A2B4677AC00DEC8C1 /* History.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -208,10 +213,19 @@
 				FCF24C092B45E4BE00CF4BCC /* Shop */,
 				FCF2EF072B45FD9100A0DDA4 /* Landing */,
 				FCB6B3FA2B3ECB7A00D5DC55 /* NavBar.swift */,
+				FC6615372B46629500DEC8C1 /* History */,
 				FCF2EF082B45FDBB00A0DDA4 /* Leaderboard */,
 				FCF2EF092B45FDDF00A0DDA4 /* Calendar */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		FC6615372B46629500DEC8C1 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				FC6615382B4662BD00DEC8C1 /* EventCard.swift */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 		FCF24C092B45E4BE00CF4BCC /* Shop */ = {
@@ -418,6 +432,7 @@
 			files = (
 				FCF2EF192B4619C700A0DDA4 /* Character.swift in Sources */,
 				FCDF92C92B45AE9E001CE9AA /* CharacterCard.swift in Sources */,
+				FC6615392B4662BD00DEC8C1 /* EventCard.swift in Sources */,
 				FC91BC6B2B3C3E96007C7A3F /* SplineCard.swift in Sources */,
 				FCDF92C12B459FE5001CE9AA /* ScheduleCard.swift in Sources */,
 				FC37D6D22B3B03D00097122D /* LandingView.swift in Sources */,
@@ -438,6 +453,7 @@
 				FC3D356F2B41512A000CC7F5 /* LeaderboardView.swift in Sources */,
 				FC0975CD2B34564F007AF825 /* TimelyApp.swift in Sources */,
 				FCB6B3F52B3EB01200D5DC55 /* HealthCard.swift in Sources */,
+				FC66153B2B4677AC00DEC8C1 /* History.swift in Sources */,
 				FCF2EF152B46136500A0DDA4 /* ChosenCharacter.swift in Sources */,
 				FCF2EF0D2B45FF3C00A0DDA4 /* CharactersView.swift in Sources */,
 				FC9380CB2B414A71008AAF95 /* RankCard.swift in Sources */,

@@ -12,7 +12,7 @@ struct LeaderboardView: View {
         ZStack(alignment: .top){
             Rectangle()
                 .foregroundColor(.background)
-                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: 700)
+                .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: 730)
                 .cornerRadius(15)
                 .ignoresSafeArea(edges: .top)
             VStack(alignment: .leading){
@@ -21,15 +21,15 @@ struct LeaderboardView: View {
                     .padding(.leading, 25)
                 Spacer()
                 VStack(alignment: .center){
-                    RankCard()
-                    RankCard()
-                    RankCard()
-                    RankCard()
-                    RankCard()
-                    RankCard()
-                    RankCard()
-                    RankCard()
-                    RankCard()
+                    RankCard(rank: 1, user: "meowstar101")
+                    RankCard(rank: 2, user: "coolcat22")
+                    RankCard(rank: 3, user: "purrfect78")
+                    RankCard(rank: 4, user: "whiskers99")
+                    RankCard(rank: 5, user: "catniplover")
+                    RankCard(rank: 6, user: "kittycuddles")
+                    RankCard(rank: 7, user: "furryfriend")
+                    RankCard(rank: 8, user: "playfulpaws")
+                    RankCard(rank: 9, user: "catwhisperer")
                 }
                 Spacer()
                 NavBar()

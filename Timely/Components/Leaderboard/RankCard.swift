@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct RankCard: View {
+    var rank: Int
+    var user: String
     var body: some View {
         HStack{
-            Text("1")
+            Text("\(rank)")
             Spacer()
-            Text("meowstar101")
+            Text("\(user)")
             Image("model")
                 .resizable()
                 .frame(width: 28, height: 28)
@@ -28,5 +30,5 @@ struct RankCard: View {
 }
 
 #Preview {
-    RankCard()
+    RankCard(rank: 1, user: "meowstar101")
 }

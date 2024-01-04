@@ -21,13 +21,24 @@ struct ScheduleCard: View {
                 .padding(.top, 10)
                 .foregroundColor(.white)
                 Spacer()
-                Text("History")
-                    .font(.system(size: 20).weight(.bold))
-                    .padding(.horizontal, 25)
-                    .padding(.vertical, 8)
-                    .background(Color.background)
-                    .cornerRadius(20)
+                NavigationLink(destination: History()) {
+                    Text("History")
+                        .foregroundColor(.black)
+                        .font(.system(size: 20).weight(.bold))
+                        .padding(.horizontal, 25)
+                        .padding(.vertical, 8)
+                        .background(Color.background)
+                        .cornerRadius(20)
+                }
+
+//                Text("History")
+//                    .font(.system(size: 20).weight(.bold))
+//                    .padding(.horizontal, 25)
+//                    .padding(.vertical, 8)
+//                    .background(Color.background)
+//                    .cornerRadius(20)
             }
+            
             CalenderCard()
             Spacer()
             Text("Where today?")

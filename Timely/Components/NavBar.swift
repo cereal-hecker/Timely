@@ -29,7 +29,7 @@ struct NavBar: View {
         .padding()
         .background(Color.background)
         .cornerRadius(20)
-        .padding()
+        .padding(.horizontal)
     }
 }
 
