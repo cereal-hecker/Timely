@@ -15,6 +15,7 @@ struct CharactersView: View {
             ChoosePet()
         }
         .edgesIgnoringSafeArea(.bottom)
+        .background(Color.background)
     }
 }
 

@@ -12,7 +12,7 @@ struct ChosenCharacter: View {
         HStack{
             Image("model")
                 .resizable()
-                .frame(width: 220, height: 220)
+                .frame(width: 200, height: 200)
             Spacer()
             VStack(alignment: .trailing){
                 HStack{

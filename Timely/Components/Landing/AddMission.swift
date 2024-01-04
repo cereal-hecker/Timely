@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct AddMission: View {
+    @State private var isSheetPresented = false
+    
     var body: some View {
         ZStack(alignment: .trailing) {
             Rectangle()
@@ -21,7 +23,9 @@ struct AddMission: View {
                 .cornerRadius(15)
 
             HStack {
-                Text("Add Mission")
+                Button("Add Mission") {
+                    isSheetPresented.toggle()
+                }
                     .foregroundColor(.black)
                     .padding(.leading, 12)
                     .padding(.trailing, 4)
@@ -34,6 +38,16 @@ struct AddMission: View {
                     .padding(.leading, 4)
             }
             .font(.system(size: 24).weight(.bold))
+            .sheet(isPresented: $isSheetPresented) {
+                NavigationView {
+                    MissionSheet()
+                        .navigationBarItems(
+                            trailing:  Button(action:{}){
+                                Image(systemName: "xmark.circle.fill")
+                            }
+                        ) .navigationBarTitle("Mission")
+                }
+            }
         }
         .padding()
         .frame(height: 32)

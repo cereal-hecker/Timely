@@ -10,13 +10,20 @@ import SwiftUI
 struct NavBar: View {
     var body: some View {
         HStack{
-            Image("calendar")
+            NavigationLink(destination: CalendarView()) {Image("calendar")}
             Spacer()
-            Image("home")
+            NavigationLink(destination: LandingView()) {Image("home")}
             Spacer()
-            Image("shop")
+            NavigationLink(destination: ShopView()) {Image("shop")}
             Spacer()
-            Image("leaderboard")
+            NavigationLink(destination: LeaderboardView()) {Image("leaderboard")}
+//            Image("calendar")
+//            Spacer()
+//            Image("home")
+//            Spacer()
+//            Image("shop")
+//            Spacer()
+//            Image("leaderboard")
         }
         .padding()
         .background(Color.background)

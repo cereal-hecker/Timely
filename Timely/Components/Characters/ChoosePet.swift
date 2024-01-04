@@ -17,14 +17,18 @@ struct ChoosePet: View {
                 Character(img: "cat", imgName: "Cosmo")
                 Character(img: "dog", imgName: "Tommy")
             }
+            .padding(.top, 32)
             Spacer()
             HStack{
                 Character(img: "penguin", imgName: "Guino")
                 Character(img: "koala", imgName: "KuaKua")
             }
+            .padding(.top, 5)
+            NavBar()
         }
-        .padding()
-        .background(Color.background)
+        .padding(.horizontal)
+        .padding(.top)
+        .background(Color.lightpink)
         .cornerRadius(20)
     }
 }
