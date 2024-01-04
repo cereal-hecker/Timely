@@ -10,13 +10,14 @@ import SwiftUI
 struct NavBar: View {
     var body: some View {
         HStack{
-            NavigationLink(destination: CalendarView()) {Image("calendar")}
+            NavigationLink(destination: CalendarView()) {Image("calendar")
+                .navigationBarBackButtonHidden(true)}
             Spacer()
-            NavigationLink(destination: LandingView()) {Image("home")}
+            NavigationLink(destination: LandingView()) {Image("home").navigationBarBackButtonHidden(true)}
             Spacer()
-            NavigationLink(destination: ShopView()) {Image("shop")}
+            NavigationLink(destination: ShopView()) {Image("shop").navigationBarBackButtonHidden(true)}
             Spacer()
-            NavigationLink(destination: LeaderboardView()) {Image("leaderboard")}
+            NavigationLink(destination: LeaderboardView()) {Image("leaderboard").navigationBarBackButtonHidden(true)}
 //            Image("calendar")
 //            Spacer()
 //            Image("home")

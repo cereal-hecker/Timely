@@ -15,7 +15,8 @@ struct ShopView: View {
                     .padding(.top, 40)
                     .padding(.leading, 25)
                 Spacer()
-                CharacterCard()
+                NavigationLink(destination: CharactersView()) {CharacterCard() .foregroundColor(.black)}
+//                CharacterCard()
                 Spacer()
                 NavBar()
             }

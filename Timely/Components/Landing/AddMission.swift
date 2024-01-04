@@ -42,11 +42,12 @@ struct AddMission: View {
                 NavigationView {
                     MissionSheet()
                         .navigationBarItems(
-                            trailing:  Button(action:{}){
-                                Image(systemName: "xmark.circle.fill")
+                            trailing:  Button(action:{isSheetPresented.toggle()}){
+                                Image(systemName: "xmark.circle.fill") .foregroundColor(.accent)
                             }
                         ) .navigationBarTitle("Mission")
                 }
+                
             }
         }
         .padding()
